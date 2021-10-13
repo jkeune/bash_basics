@@ -12,7 +12,7 @@ do
     then
         echo "$ih"
     else
-        echo "$ih not mylist!"
+        echo "$ih not in ${mylist[@]}!"
     fi
 
 done
